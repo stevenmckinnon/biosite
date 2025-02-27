@@ -8,7 +8,7 @@ export const Header = () => {
     <header className="relative w-full px-0 min-h-[270px] md:min-h-[300px] z-0 flex flex-col items-center pb-[20px] uppercase">
       <BlurFade delay={BLUR_FADE_DELAY} className="flex flex-col items-center">
         <div className="container mt-6 mx-auto z-20">
-          <p className="text-center drop-shadow-xs text-xs md:text-base">
+          <p className="text-center drop-shadow-xs text-xs md:text-base text-shadow-sm">
             Glasgow based photographer & camera operator
           </p>
         </div>
@@ -17,7 +17,7 @@ export const Header = () => {
         delay={BLUR_FADE_DELAY * 2}
         className="flex flex-col items-center"
       >
-        <h1 className="drop-shadow-md text-center mt-8 flex-auto max-w-[300px] flex items-center justify-center text-5xl tracking-tighter sm:text-6xl xl:text-7xl/none z-10 relative">
+        <h1 className="text-center mt-8 flex-auto max-w-[300px] flex items-center justify-center text-5xl tracking-tighter sm:text-6xl xl:text-7xl/none z-10 relative text-shadow-md">
           Steve McKinnon
         </h1>
         <Avatar className="size-56 -mt-6 z-0 md:size-64">
