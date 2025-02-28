@@ -11,7 +11,7 @@ const portfolioItems: PortfolioItem[] = [
   {
     id: "01",
     title: "Photography Portfolio",
-    link: "https://stevemckinnon.co.uk",
+    link: "https://stevenmckinnon.co.uk",
   },
   { id: "02", title: "Dev Resumé", link: "https://stevemckinnon.co.uk" },
   { id: "03", title: "ICW", link: "https://www.fite.tv/vl/p/icw/" },

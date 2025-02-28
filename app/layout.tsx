@@ -59,6 +59,9 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en" className="dark">
+      <head>
+        <meta name="theme-color" content="var(--background)" />
+      </head>
       <body className={`${inter.className} dark:bg-black dark:text-white`}>
         <div className="fixed inset-0 -z-10 h-full w-full">
           <div className="relative h-full w-full">
