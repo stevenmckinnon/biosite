@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Rubik } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const fontSans = Rubik({
+  subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.stevenmckinnon.co.uk"),
@@ -62,7 +66,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       <head>
         <meta name="theme-color" content="var(--background)" />
       </head>
-      <body className={`${inter.className} dark:bg-black dark:text-white`}>
+      <body className={`${fontSans.className} dark:bg-black dark:text-white`}>
         <div className="fixed inset-0 -z-10 h-full w-full">
           <div className="relative h-full w-full">
             <div
