@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
+
 import { Rubik } from "next/font/google";
 import "./globals.css";
 
@@ -84,6 +86,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           </div>
         </div>
         <main className="min-h-screen relative z-0">{children}</main>
+        <Analytics />
       </body>
     </html>
   );
