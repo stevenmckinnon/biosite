@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import { Rubik } from "next/font/google";
 import "./globals.css";
@@ -74,19 +75,20 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             <div
               className="absolute -top-40 -right-20 h-[500px] w-[500px] rounded-full bg-gradient-to-r from-blue-600 to-teal-400 opacity-20 blur-[100px] animate-pulse"
               style={{ animationDuration: "8s" }}
-            ></div>
+            />
             <div
               className="absolute top-1/2 left-1/3 h-[400px] w-[400px] rounded-full bg-gradient-to-r from-cyan-500 to-emerald-500 opacity-20 blur-[100px] animate-pulse"
               style={{ animationDuration: "10s" }}
-            ></div>
+            />
             <div
               className="absolute -bottom-40 -left-20 h-[500px] w-[500px] rounded-full bg-gradient-to-r from-blue-500 to-green-400 opacity-20 blur-[100px] animate-pulse"
               style={{ animationDuration: "12s" }}
-            ></div>
+            />
           </div>
         </div>
         <main className="min-h-screen relative z-0">{children}</main>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
