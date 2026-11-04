@@ -18,7 +18,7 @@
     "framer-motion": "^12.4.7",
     "lucide-react": "^0.476.0",
     "motion": "^12.4.7",
-    "next": "16.0.7",
+    "next": "16.4.1",
     "react": "19.2.1",
     "react-dom": "19.2.1",
     "tailwind-merge": "^3.0.2"
@@ -29,14 +29,8 @@
     "@types/react": "19.2.4",
     "@types/react-dom": "19.2.3",
     "eslint": "^9",
-    "eslint-config-next": "16.0.3",
+    "eslint-config-next": "16.4.1",
     "tailwindcss": "^4",
     "typescript": "^5"
-  },
-  "pnpm": {
-    "overrides": {
-      "@types/react": "19.2.4",
-      "@types/react-dom": "19.2.3"
-    }
   }
 }
