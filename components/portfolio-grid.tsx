@@ -49,6 +49,20 @@ const portfolioItems: PortfolioItem[] = [
     link: "https://caley.app",
     category: "Development",
   },
+  {
+    id: "06",
+    title: "Marquee",
+    description: "IPTV player for iPhone, iPad and Apple TV",
+    link: "https://apps.apple.com/gb/app/marquee-tv/id6832108013",
+    category: "Development",
+  },
+  {
+    id: "07",
+    title: "Dashbar",
+    description: "Mac menu bar app for Claude Code and Codex agents",
+    link: "https://usedashbar.com",
+    category: "Development",
+  },
 ];
 
 export const PortfolioGrid = () => {
