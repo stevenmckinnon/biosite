@@ -12,7 +12,7 @@ const fontSans = Rubik({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.stevenmckinnon.co.uk"),
+  metadataBase: new URL("https://mckinnon.bio"),
   title: {
     default: `Steve McKinnon`,
     template: `%s | Steve McKinnon`,
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: `Steve McKinnon`,
     description:
       "Bio site for Steve McKinnon, a photographer and camera operator based in Glasgow.",
-    url: "https://www.stevenmckinnon.co.uk",
+    url: "https://mckinnon.bio",
     siteName: `Steve McKinnon`,
     locale: "en_US",
     type: "website",
